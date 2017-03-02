@@ -10,7 +10,7 @@ $komen = $data->fetchAll();
 
   <div class="div-card" style="width:100%;">
     <header class="div-pri-content header-colour">
-      <center><h3>================ The Comments ================</h3></center>
+      <center><h3>------------- The Comments -------------</h3></center>
     </header>
     </div>
     </div>

@@ -1,6 +1,6 @@
 <?php
 try {
-	$koneksi = new PDO("mysql:host=localhost;port=3306;dbname=jomb;","root","pelangibaru");
+	$koneksi = new PDO("mysql:host=localhost;port=3306;dbname=bz","root","");
 	//echo "koneksi berhasil";
 
 	}catch(PDOException $e)

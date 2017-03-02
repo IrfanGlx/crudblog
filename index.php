@@ -7,7 +7,7 @@ else {
 	$username = $_SESSION['username'];
 }
 try {
-	$koneksi = new PDO("mysql:host=localhost;port=3306;dbname=jomb","root","pelangibaru");
+	$koneksi = new PDO("mysql:host=localhost;port=3306;dbname=bz","root","");
 	//echo "koneksi berhasil";
 
 	}catch(PDOException $e)
@@ -31,7 +31,7 @@ function excerpt($string){
 	<title></title>
 	<style>
 	body {
-		background-color:green; 
+		background-color:#23DED7; 
 		margin: 0 auto;
 
 	}
@@ -90,6 +90,8 @@ foreach ($data as $key) {
 		<br>
 	<?php
 }
+
 ?>
+
 	</body>
 </html>

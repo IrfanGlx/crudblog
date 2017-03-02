@@ -139,10 +139,6 @@ input[type="submit"]:hover{
 <br><br><br><br><br><br>
 <hr>
 <center>
-<font color="red" font size="5">Ikuti Social Media Kami</h2></font>
-<a href="https://www.instagram.com/sendiii13/" rel="nofollow" target="_blank"><img src="https://4.bp.blogspot.com/-AcrT45Y7gdY/WFSx_c4DE4I/AAAAAAAABGM/snB88XkhX6It6PrZ9w9U8qqHOz2ru3gZACLcB/s1600/instagram.png"></a>
-<a href="https://www.facebook.com/Sendii13meii" rel="nofollow" target="_blank"><img src="https://3.bp.blogspot.com/-EM7xJVqKFcE/WFSx_YR8PKI/AAAAAAAABGQ/V_dKgqQoGV4dWcPOxHE9LlahRRDXbpL5gCLcB/s1600/facebook.png"></center></a>
-
 </body>
 <script>
 $(".name").focus(function(){

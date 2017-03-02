@@ -1,7 +1,7 @@
 <?php
 session_start();
 try{
-    $koneksi = new PDO("mysql:host=localhost;port=3306;dbname=jomb;","root","pelangibaru");
+    $koneksi = new PDO("mysql:host=localhost;port=3306;dbname=bz;","root","");
     //echo "koneksi berhasil";
 }catch(PDOException$e){
     echo $e->getMessage();
@@ -22,7 +22,7 @@ try{
 		if ($r) {
 			header("location:read_more.php?id=".$id_artikel);
 		}else{
-			echo "gagal";
+			echo "Gagal!";
 		}
 
 	}
